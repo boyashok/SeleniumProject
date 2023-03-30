@@ -1,79 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-29T12:14:57 IST" name="Default suite" finished-at="2023-03-29T12:16:14 IST" duration-ms="76725">
+  <suite started-at="2023-03-29T13:13:48 IST" name="Suite" finished-at="2023-03-29T13:14:05 IST" duration-ms="16206">
     <groups>
-      <group name="RegressionSuite">
-        <method signature="CreateOrganizationTest.demoScript()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" name="demoScript" class="vtiger.OrganizationTests.CreateOrganizationTest"/>
-      </group> <!-- RegressionSuite -->
-      <group name="SmokeSuite">
-        <method signature="CreateOrganizationTest.createOrganizationTest()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" name="createOrganizationTest" class="vtiger.OrganizationTests.CreateOrganizationTest"/>
-      </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2023-03-29T12:14:57 IST" name="Default test" finished-at="2023-03-29T12:16:14 IST" duration-ms="76725">
+    <test started-at="2023-03-29T13:13:48 IST" name="Test" finished-at="2023-03-29T13:14:05 IST" duration-ms="16206">
       <class name="vtiger.OrganizationTests.CreateOrganizationTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:14:57 IST" name="bsConfig" finished-at="2023-03-29T12:14:57 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:13:48 IST" name="bsConfig" finished-at="2023-03-29T13:13:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:14:58 IST" name="bcConfig" finished-at="2023-03-29T12:15:05 IST" duration-ms="7175" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:13:49 IST" name="bcConfig" finished-at="2023-03-29T13:13:56 IST" duration-ms="7488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:15:05 IST" name="bmConfig" finished-at="2023-03-29T12:15:10 IST" duration-ms="5372" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:13:56 IST" name="bmConfig" finished-at="2023-03-29T13:14:02 IST" duration-ms="5314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="createOrganizationTest()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:15:10 IST" name="createOrganizationTest" finished-at="2023-03-29T12:15:31 IST" duration-ms="20523" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOrganizationTest -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:15:31 IST" name="amConfig" finished-at="2023-03-29T12:15:34 IST" duration-ms="3158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:15:34 IST" name="bmConfig" finished-at="2023-03-29T12:15:39 IST" duration-ms="5253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bmConfig -->
-        <test-method signature="demoScript()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:15:39 IST" name="demoScript" finished-at="2023-03-29T12:15:39 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- demoScript -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:15:39 IST" name="amConfig" finished-at="2023-03-29T12:15:45 IST" duration-ms="5451" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:15:45 IST" name="bmConfig" finished-at="2023-03-29T12:15:53 IST" duration-ms="8302" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- bmConfig -->
-        <test-method signature="regional()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:15:53 IST" name="regional" finished-at="2023-03-29T12:15:53 IST" duration-ms="5" status="PASS">
+        <test-method signature="regional()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:14:02 IST" name="regional" finished-at="2023-03-29T13:14:02 IST" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- regional -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:15:53 IST" name="amConfig" finished-at="2023-03-29T12:16:14 IST" duration-ms="20973" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:14:02 IST" name="amConfig" finished-at="2023-03-29T13:14:05 IST" duration-ms="3030" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Unable to locate element: Sign Out
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[TypeError: browsingContext.currentWindowGlobal is null
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'TYSS-CHAITHRA', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [2f92ad93-2474-44c2-a28d-7477acd9d59f, findElement {using=link text, value=Sign Out}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:61633, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12244, moz:profile: C:\Users\CHAITH~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f92ad93-2474-44c2-a28d-7477acd9d59f]]>
+Command: [56a4fd1e-7970-49b9-833f-999682c37462, findElement {using=link text, value=Sign Out}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:63400, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8328, moz:profile: C:\Users\CHAITH~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:63400/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 56a4fd1e-7970-49b9-833f-999682c37462]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: Sign Out
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: browsingContext.currentWindowGlobal is null
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'TYSS-CHAITHRA', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [2f92ad93-2474-44c2-a28d-7477acd9d59f, findElement {using=link text, value=Sign Out}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:61633, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12244, moz:profile: C:\Users\CHAITH~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61633/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2f92ad93-2474-44c2-a28d-7477acd9d59f
+Command: [56a4fd1e-7970-49b9-833f-999682c37462, findElement {using=link text, value=Sign Out}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:63400, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8328, moz:profile: C:\Users\CHAITH~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:63400/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 56a4fd1e-7970-49b9-833f-999682c37462
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -129,19 +97,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:16:14 IST" name="acConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680072374690" status="SKIP">
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:14:05 IST" name="acConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680075845159" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@2e3967ea]" started-at="2023-03-29T12:16:15 IST" name="asConfig" finished-at="2023-03-29T12:16:15 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:14:05 IST" name="asConfig" finished-at="2023-03-29T13:14:05 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asConfig -->
       </class> <!-- vtiger.OrganizationTests.CreateOrganizationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
