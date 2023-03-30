@@ -21,6 +21,8 @@ public class ReadDataFromCmdLine {
 		
 		
 		System.out.println("-------");
+		
+		System.out.println("-------");
 	}
 
 }
