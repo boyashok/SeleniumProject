@@ -72,7 +72,7 @@
     <artifactId>extentreports</artifactId>
     <version>5.0.9</version>
 </dependency>
-  
+  <!-- If you get any error when you compile project in cmd line-->
   <dependency>
     <groupId>org.projectlombok</groupId>
     <artifactId>lombok</artifactId>

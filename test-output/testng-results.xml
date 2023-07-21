@@ -1,115 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-29T13:13:48 IST" name="Suite" finished-at="2023-03-29T13:14:05 IST" duration-ms="16206">
+  <suite started-at="2023-07-21T12:06:27 IST" name="Default suite" finished-at="2023-07-21T12:07:20 IST" duration-ms="53238">
     <groups>
+      <group name="RegressionSuite">
+        <method signature="CreateOrganizationTest.demoScript()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" name="demoScript" class="vtiger.OrganizationTests.CreateOrganizationTest"/>
+      </group> <!-- RegressionSuite -->
+      <group name="SmokeSuite">
+        <method signature="CreateOrganizationTest.createOrganizationTest()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" name="createOrganizationTest" class="vtiger.OrganizationTests.CreateOrganizationTest"/>
+      </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2023-03-29T13:13:48 IST" name="Test" finished-at="2023-03-29T13:14:05 IST" duration-ms="16206">
+    <test started-at="2023-07-21T12:06:27 IST" name="Default test" finished-at="2023-07-21T12:07:20 IST" duration-ms="53238">
       <class name="vtiger.OrganizationTests.CreateOrganizationTest">
-        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:13:48 IST" name="bsConfig" finished-at="2023-03-29T13:13:48 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="bsConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:06:27 IST" name="bsConfig" finished-at="2023-07-21T12:06:27 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bsConfig -->
-        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:13:49 IST" name="bcConfig" finished-at="2023-03-29T13:13:56 IST" duration-ms="7488" status="PASS">
+        <test-method is-config="true" signature="bcConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:06:27 IST" name="bcConfig" finished-at="2023-07-21T12:06:39 IST" duration-ms="11530" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bcConfig -->
-        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:13:56 IST" name="bmConfig" finished-at="2023-03-29T13:14:02 IST" duration-ms="5314" status="PASS">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:06:39 IST" name="bmConfig" finished-at="2023-07-21T12:06:44 IST" duration-ms="5401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bmConfig -->
-        <test-method signature="regional()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:14:02 IST" name="regional" finished-at="2023-03-29T13:14:02 IST" duration-ms="27" status="PASS">
+        <test-method signature="createOrganizationTest()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:06:44 IST" name="createOrganizationTest" finished-at="2023-07-21T12:07:04 IST" duration-ms="19677" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- regional -->
-        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:14:02 IST" name="amConfig" finished-at="2023-03-29T13:14:05 IST" duration-ms="3030" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[TypeError: browsingContext.currentWindowGlobal is null
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'TYSS-CHAITHRA', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [56a4fd1e-7970-49b9-833f-999682c37462, findElement {using=link text, value=Sign Out}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:63400, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8328, moz:profile: C:\Users\CHAITH~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:63400/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 56a4fd1e-7970-49b9-833f-999682c37462]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: TypeError: browsingContext.currentWindowGlobal is null
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'TYSS-CHAITHRA', ip: '192.168.1.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [56a4fd1e-7970-49b9-833f-999682c37462, findElement {using=link text, value=Sign Out}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 111.0.1, moz:accessibilityChecks: false, moz:buildID: 20230321111920, moz:debuggerAddress: 127.0.0.1:63400, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8328, moz:profile: C:\Users\CHAITH~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:63400/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 56a4fd1e-7970-49b9-833f-999682c37462
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy24.click(Unknown Source)
-at vtiger.ObjectRepository.HomePage.logoutOfApp(HomePage.java:78)
-at vtiger.GenericUtilities.BaseClass.amConfig(BaseClass.java:91)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        </test-method> <!-- createOrganizationTest -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:07:04 IST" name="amConfig" finished-at="2023-07-21T12:07:06 IST" duration-ms="1746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- amConfig -->
-        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:14:05 IST" name="acConfig" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680075845159" status="SKIP">
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:07:06 IST" name="bmConfig" finished-at="2023-07-21T12:07:08 IST" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="demoScript()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:07:08 IST" name="demoScript" finished-at="2023-07-21T12:07:08 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoScript -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:07:08 IST" name="amConfig" finished-at="2023-07-21T12:07:13 IST" duration-ms="5294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="bmConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:07:13 IST" name="bmConfig" finished-at="2023-07-21T12:07:15 IST" duration-ms="1824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bmConfig -->
+        <test-method signature="regional()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:07:15 IST" name="regional" finished-at="2023-07-21T12:07:15 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- regional -->
+        <test-method is-config="true" signature="amConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:07:15 IST" name="amConfig" finished-at="2023-07-21T12:07:18 IST" duration-ms="3450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- amConfig -->
+        <test-method is-config="true" signature="acConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:07:18 IST" name="acConfig" finished-at="2023-07-21T12:07:20 IST" duration-ms="2009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- acConfig -->
-        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@6221a451]" started-at="2023-03-29T13:14:05 IST" name="asConfig" finished-at="2023-03-29T13:14:05 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="asConfig()[pri:0, instance:vtiger.OrganizationTests.CreateOrganizationTest@8f4ea7c]" started-at="2023-07-21T12:07:20 IST" name="asConfig" finished-at="2023-07-21T12:07:20 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- asConfig -->
       </class> <!-- vtiger.OrganizationTests.CreateOrganizationTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

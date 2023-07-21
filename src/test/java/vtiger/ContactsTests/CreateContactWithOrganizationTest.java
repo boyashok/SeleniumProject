@@ -32,21 +32,20 @@ import vtiger.ObjectRepository.OrganizationsInfoPage;
 import vtiger.ObjectRepository.OrganizationsPage;
 
 @Listeners(vtiger.GenericUtilities.ListenersImplementation.class)
-public class CreateContactWithOrganizationTest extends BaseClass{
+public class CreateContactWithOrganizationTest extends BaseClass {
 
 	@Test(groups = "RegressionSuite")
-	public void createContactWithOrgTest() throws EncryptedDocumentException, IOException
-	{
+	public void createContactWithOrgTest() throws EncryptedDocumentException, IOException {
 
 		/* Read data from excel sheet - Test data */
 		String ORGNAME = eUtil.readDataFromExcel("Contacts", 4, 2) + jUtil.getRandomNumber();
 		String LASTNAME = eUtil.readDataFromExcel("Contacts", 4, 3);
-				
+
 		// Step 4: Click on Organizations link
 		HomePage hp = new HomePage(driver);
 		hp.clickOnOrganizationsLnk();
-		Reporter.log("Click on Organizations link successful",true);
-		
+		Reporter.log("Click on Organizations link successful", true);
+
 		// Step 5: Click on Create Organization look up image
 		OrganizationsPage op = new OrganizationsPage(driver);
 		op.clickOnCreateOrgImg();
@@ -61,13 +60,11 @@ public class CreateContactWithOrganizationTest extends BaseClass{
 		OrganizationsInfoPage oip = new OrganizationsInfoPage(driver);
 		String orgHeader = oip.getOrgHeader();
 		Assert.assertTrue(orgHeader.contains(ORGNAME));
-		System.out.println(orgHeader+" --- Organization created");
-		
-		
+		System.out.println(orgHeader + " --- Organization created");
+
 		// Step 9: Navigate to contacts Link
 		hp.clickOnContactsLnk();
 		Reporter.log("Navigate to contacts Link successful");
-		
 
 		// Step 10:Click on create contact look up image
 		ContactsPage cp = new ContactsPage(driver);
@@ -78,36 +75,12 @@ public class CreateContactWithOrganizationTest extends BaseClass{
 		CreateNewContactPage cncp = new CreateNewContactPage(driver);
 		cncp.createNewContact(driver, LASTNAME, ORGNAME);
 		Reporter.log(" create contact successful");
-	
+
 		// Step 16: Validate for Contacts
 		ContactsInfoPage cip = new ContactsInfoPage(driver);
 		String ContactHeader = cip.getContactHeader();
 		Assert.assertTrue(ContactHeader.contains(LASTNAME));
-		System.out.println(ContactHeader+" --- Contact created ");
-		
-
-		
-		                             
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println(ContactHeader + " --- Contact created ");
 
 	}
 
